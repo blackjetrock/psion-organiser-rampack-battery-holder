@@ -1,0 +1,57 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 6285B946
+P 3850 2550
+F 0 "BT1" H 3968 2646 50  0000 L CNN
+F 1 "Battery_Cell" H 3968 2555 50  0000 L CNN
+F 2 "" V 3850 2610 50  0001 C CNN
+F 3 "~" V 3850 2610 50  0001 C CNN
+	1    3850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 6285BDAC
+P 2950 2050
+F 0 "J1" H 2978 2076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2978 1985 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2950 2050 50  0001 C CNN
+F 3 "~" H 2950 2050 50  0001 C CNN
+	1    2950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 6285C147
+P 2975 3050
+F 0 "J2" H 3003 3076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3003 2985 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2975 3050 50  0001 C CNN
+F 3 "~" H 2975 3050 50  0001 C CNN
+	1    2975 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 2350 3850 2050
+Wire Wire Line
+	3850 2050 3150 2050
+Wire Wire Line
+	3850 2650 3850 3050
+Wire Wire Line
+	3850 3050 3175 3050
+$EndSCHEMATC
