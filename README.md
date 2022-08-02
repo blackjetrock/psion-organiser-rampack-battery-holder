@@ -25,6 +25,8 @@ Here's a rough sequence:
 It's involved and quite time consuming but it can be done. There's videos here:
 
 https://www.youtube.com/watch?v=c5Nr7drKGiE
+
 https://www.youtube.com/watch?v=4RJYu7aHiQ8
+
 https://www.youtube.com/watch?v=rGJUii9sP6A
 
